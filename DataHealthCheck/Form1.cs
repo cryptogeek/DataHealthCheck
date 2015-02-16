@@ -301,21 +301,49 @@ namespace DataHealthCheck
                 {
                     //item is a file
 
-                    textBox1.Invoke(new MethodInvoker(delegate
-                    {
-                        textBox1.AppendText("Computing md5 hash of \"" + item + "\"");
-                        textBox1.AppendText(Environment.NewLine);
-                    }));
+                    if (radioButtonMd5.Checked){
+                        textBox1.Invoke(new MethodInvoker(delegate
+                        {
+                            textBox1.AppendText("Computing md5 hash of \"" + item + "\"");
+                            textBox1.AppendText(Environment.NewLine);
+                            textBox1.AppendText(Environment.NewLine);
+                        }));
 
-                    //computing md5
-                    md5Class.md5Method(item);
-                    //end: computing md5
+                        sw.Start();
+                        md5Class.md5Method(item); //computing md5
+                        TimeSpan ts = sw.Elapsed;
+                        sw.Stop();
+                        sw.Reset();
+                        string elapsedTime = String.Format("{0:00} hours {1:00} minutes {2:00} seconds {3:00} milliseconds.", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+                    
+                        textBox1.Invoke(new MethodInvoker(delegate
+                        {
+                            textBox1.AppendText("md5: " + md5Class.md5String + " computed in "+elapsedTime);
+                            textBox1.AppendText(Environment.NewLine);
+                            textBox1.AppendText(Environment.NewLine);
+                        }));
+                    }else{
+                        textBox1.Invoke(new MethodInvoker(delegate
+                        {
+                            textBox1.AppendText("Computing sha1 hash of \"" + item + "\"");
+                            textBox1.AppendText(Environment.NewLine);
+                            textBox1.AppendText(Environment.NewLine);
+                        }));
 
-                    textBox1.Invoke(new MethodInvoker(delegate
-                    {
-                        textBox1.AppendText(md5Class.md5String + " \"" + item + "\"");
-                        textBox1.AppendText(Environment.NewLine);
-                    }));
+                        sw.Start();
+                        sha1Class.sha1Method(item); //computing sha1
+                        TimeSpan ts = sw.Elapsed;
+                        sw.Stop();
+                        sw.Reset();
+                        string elapsedTime = String.Format("{0:00} hours {1:00} minutes {2:00} seconds {3:00} milliseconds.", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+
+                        textBox1.Invoke(new MethodInvoker(delegate
+                        {
+                            textBox1.AppendText("sha1: " + sha1Class.sha1String + " computed in " + elapsedTime);
+                            textBox1.AppendText(Environment.NewLine);
+                            textBox1.AppendText(Environment.NewLine);
+                        }));
+                    }
                 }
             }
         }

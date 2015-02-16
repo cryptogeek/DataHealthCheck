@@ -39,6 +39,9 @@
             this.backgroundWorker3 = new System.ComponentModel.BackgroundWorker();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.radioButtonMd5 = new System.Windows.Forms.RadioButton();
+            this.radioButtonSha1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // listBox1
@@ -77,7 +80,7 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button2.Location = new System.Drawing.Point(301, 191);
+            this.button2.Location = new System.Drawing.Point(12, 191);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(149, 23);
             this.button2.TabIndex = 6;
@@ -118,7 +121,7 @@
             // 
             this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(569, 9);
+            this.linkLabel1.Location = new System.Drawing.Point(555, 9);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(112, 13);
             this.linkLabel1.TabIndex = 14;
@@ -130,17 +133,52 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(682, 9);
+            this.label6.Location = new System.Drawing.Point(669, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 13);
+            this.label6.Size = new System.Drawing.Size(69, 13);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Version 1.3";
+            this.label6.Text = "Version 1.4.0";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(216, 196);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 13);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Hashing method:";
+            // 
+            // radioButtonMd5
+            // 
+            this.radioButtonMd5.AutoSize = true;
+            this.radioButtonMd5.Checked = true;
+            this.radioButtonMd5.Location = new System.Drawing.Point(309, 194);
+            this.radioButtonMd5.Name = "radioButtonMd5";
+            this.radioButtonMd5.Size = new System.Drawing.Size(46, 17);
+            this.radioButtonMd5.TabIndex = 17;
+            this.radioButtonMd5.TabStop = true;
+            this.radioButtonMd5.Text = "Md5";
+            this.radioButtonMd5.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonSha1
+            // 
+            this.radioButtonSha1.AutoSize = true;
+            this.radioButtonSha1.Location = new System.Drawing.Point(361, 194);
+            this.radioButtonSha1.Name = "radioButtonSha1";
+            this.radioButtonSha1.Size = new System.Drawing.Size(50, 17);
+            this.radioButtonSha1.TabIndex = 18;
+            this.radioButtonSha1.Text = "Sha1";
+            this.radioButtonSha1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 377);
+            this.Controls.Add(this.radioButtonSha1);
+            this.Controls.Add(this.radioButtonMd5);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.textBox1);
@@ -168,6 +206,9 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButtonMd5;
+        private System.Windows.Forms.RadioButton radioButtonSha1;
         public static System.Windows.Forms.ProgressBar progressBar1;
     }
 }
