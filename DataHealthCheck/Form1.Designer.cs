@@ -79,7 +79,7 @@
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button2.Location = new System.Drawing.Point(12, 191);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(149, 23);
@@ -137,11 +137,11 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 13);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Version 1.4.0";
+            this.label6.Text = "Version 1.5.0";
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(216, 196);
             this.label3.Name = "label3";
@@ -151,6 +151,7 @@
             // 
             // radioButtonMd5
             // 
+            this.radioButtonMd5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.radioButtonMd5.AutoSize = true;
             this.radioButtonMd5.Checked = true;
             this.radioButtonMd5.Location = new System.Drawing.Point(309, 194);
@@ -163,6 +164,7 @@
             // 
             // radioButtonSha1
             // 
+            this.radioButtonSha1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.radioButtonSha1.AutoSize = true;
             this.radioButtonSha1.Location = new System.Drawing.Point(361, 194);
             this.radioButtonSha1.Name = "radioButtonSha1";

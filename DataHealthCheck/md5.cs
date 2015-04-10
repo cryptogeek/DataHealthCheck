@@ -30,7 +30,8 @@ namespace DataHealthCheck
                             bytesRead = file.Read(buffer, 0, buffer.Length);
                             totalBytesRead += bytesRead;
                             hasher.TransformBlock(buffer, 0, bytesRead, null, 0);
-                            Form1.progressBar1.Invoke(new MethodInvoker(delegate
+
+                           Form1.progressBar1.Invoke(new MethodInvoker(delegate
                             {
                                 Form1.progressBar1.Value = (int)((double)totalBytesRead / (size) * 100);
                             }));

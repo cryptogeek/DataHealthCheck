@@ -306,7 +306,6 @@ namespace DataHealthCheck
                         {
                             textBox1.AppendText("Computing md5 hash of \"" + item + "\"");
                             textBox1.AppendText(Environment.NewLine);
-                            textBox1.AppendText(Environment.NewLine);
                         }));
 
                         sw.Start();
@@ -320,13 +319,11 @@ namespace DataHealthCheck
                         {
                             textBox1.AppendText("md5: " + md5Class.md5String + " computed in "+elapsedTime);
                             textBox1.AppendText(Environment.NewLine);
-                            textBox1.AppendText(Environment.NewLine);
                         }));
                     }else{
                         textBox1.Invoke(new MethodInvoker(delegate
                         {
                             textBox1.AppendText("Computing sha1 hash of \"" + item + "\"");
-                            textBox1.AppendText(Environment.NewLine);
                             textBox1.AppendText(Environment.NewLine);
                         }));
 
@@ -340,7 +337,6 @@ namespace DataHealthCheck
                         textBox1.Invoke(new MethodInvoker(delegate
                         {
                             textBox1.AppendText("sha1: " + sha1Class.sha1String + " computed in " + elapsedTime);
-                            textBox1.AppendText(Environment.NewLine);
                             textBox1.AppendText(Environment.NewLine);
                         }));
                     }
