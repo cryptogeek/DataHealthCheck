@@ -5,5 +5,5 @@ Windows 7,8,8.1
 # Screenshots:
 ![DataHealthCheck](https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/screenshot.png)
 # Changelog:
-<a href="https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/changelog.txt" target="_blank">https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/changelog.txt</a>
+[link](https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/changelog.txt){:target="_blank"}
 https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/changelog.txt
