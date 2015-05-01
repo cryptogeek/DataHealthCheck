@@ -35,6 +35,23 @@ namespace DataHealthCheck
         {
             InitializeComponent();
         }
+        List<string> filesList = new List<string>();
+        private void customGetFiles(string folder)
+        {
+            foreach (string file in Directory.GetFiles(folder))
+            {
+                filesList.Add(file);
+            }
+            foreach (string subDir in Directory.GetDirectories(folder))
+            {
+                try
+                {
+                    customGetFiles(subDir);
+                }
+                catch
+                {}
+            }
+        }
         private void listBox1_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.All;
@@ -69,7 +86,8 @@ namespace DataHealthCheck
                     isfolder = 1;
 
                     //building list of files in folder
-                    string[] files = Directory.GetFiles(item, "*", SearchOption.AllDirectories);
+                    filesList.Clear();
+                    customGetFiles(item);
 
                     //if old hashlog doesn't exists we create it
                     if (!File.Exists(hashLogPath))
@@ -90,7 +108,7 @@ namespace DataHealthCheck
                     StreamWriter writercorrupt = new StreamWriter(corruptLogPath);
 
                     //do this for each file in folder
-                    foreach (string fileString in files)
+                    foreach (string fileString in filesList)
                     {
                         if (fileString != hashLogPath && fileString != newHashLogPath && fileString != corruptLogPath && IsFileNotLocked(fileString))
                         {

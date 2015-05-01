@@ -27,3 +27,17 @@ E:\files\a\z\software\my software\visual studio c#\projects\DataHealthCheck\Data
 E:\files\a\z\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.TrustInfo.xml
 E:\files\a\z\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.exe.manifest
 E:\files\a\z\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.application
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\bin\Debug\DataHealthCheck.exe.config
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.exe
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.pdb
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\bin\Debug\DataHealthCheck.exe.manifest
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\bin\Debug\DataHealthCheck.application
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\bin\Debug\DataHealthCheck.exe
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\bin\Debug\DataHealthCheck.pdb
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.csprojResolveAssemblyReference.cache
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.Form1.resources
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.Properties.Resources.resources
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.csproj.GenerateResource.Cache
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.TrustInfo.xml
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.exe.manifest
+V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Debug\DataHealthCheck.application

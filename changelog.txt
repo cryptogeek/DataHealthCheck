@@ -1,0 +1,2 @@
+1.5.2015 v1.5.1
+-ignore folder instead of stopping when access denied
