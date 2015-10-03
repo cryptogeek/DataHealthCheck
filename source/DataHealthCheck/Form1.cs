@@ -365,5 +365,27 @@ namespace DataHealthCheck
         {
             System.Diagnostics.Process.Start("https://cryptogeek.ninja/");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string[] args = Environment.GetCommandLineArgs();
+            int i = 0;
+            foreach (string arg in args)
+            {
+                if (i == 1)
+                {
+                    listBox1.Items.Add(arg);
+                }
+
+                if (arg.IndexOf("-c") == 0)
+                {
+                    i = 1;
+                }
+            }
+            if (i == 1)
+            {
+                button2.PerformClick();
+            }
+        }
     }
 }
