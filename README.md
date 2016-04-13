@@ -1,5 +1,10 @@
 # Download:
 https://github.com/cryptogeek/DataHealthCheck/raw/master/source/DataHealthCheck/bin/Release/DataHealthCheck.exe
+# Usage:
+Use graphical user interface or with command line.
+# Command line options
+-c: check folders 
+Exemple: DataHealthCheck.exe -c "some path\folder1" "some path\folder2" 
 # Supported OS: 
 Windows 8.1
 # Might work:
