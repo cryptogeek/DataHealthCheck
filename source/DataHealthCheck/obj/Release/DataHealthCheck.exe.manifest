@@ -4,7 +4,7 @@
   <description asmv2:iconFile="bitrot.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="DataHealthCheck" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="DataHealthCheck" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="DataHealthCheck.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataHealthCheck.exe" size="155648">
-      <assemblyIdentity name="DataHealthCheck" version="1.6.1.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataHealthCheck.exe" size="155136">
+      <assemblyIdentity name="DataHealthCheck" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>r+K6Ki1nijn6UwS3znWznzIKKEOIWULDAmrNrH1I6Cc=</dsig:DigestValue>
+        <dsig:DigestValue>KUCccGDliFAup6Fc41avwPVyt6WhijlS/gpR1BV3vOA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

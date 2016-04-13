@@ -16,7 +16,6 @@ namespace DataHealthCheck
     public partial class Form1 : Form
     {
         int corrupted = 0;
-        int missing = 0;
         int changed = 0;
         int unchanged = 0;
         int newFiles = 0;
@@ -282,7 +281,6 @@ namespace DataHealthCheck
             isfolder = 0;
 
             corrupted = 0;
-            missing = 0;
             changed = 0;
             unchanged = 0;
             newFiles = 0;

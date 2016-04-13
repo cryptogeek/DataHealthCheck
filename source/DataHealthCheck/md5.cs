@@ -14,7 +14,6 @@ namespace DataHealthCheck
         static int bytesRead;
         static long size;
         static long totalBytesRead;
-        static StringBuilder md5StringBuilder;
         public static void md5Method(String fileString)
         {
             using (FileStream file = new FileStream(fileString, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)) //no need to close filestream with using

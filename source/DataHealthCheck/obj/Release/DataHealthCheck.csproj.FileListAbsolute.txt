@@ -63,3 +63,20 @@ V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCh
 V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Release\DataHealthCheck.TrustInfo.xml
 V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Release\DataHealthCheck.exe.manifest
 V:\b\software\my software\visual studio c#\projects\DataHealthCheck\DataHealthCheck\obj\Release\DataHealthCheck.application
+V:\b\software\security\DataHealthCheck\Source\DataHealthCheck\bin\Release\DataHealthCheck.exe.config
+V:\b\software\security\DataHealthCheck\Source\DataHealthCheck\obj\Release\DataHealthCheck.exe
+V:\b\software\security\DataHealthCheck\Source\DataHealthCheck\obj\Release\DataHealthCheck.pdb
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\bin\Release\DataHealthCheck.exe.config
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.exe
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.pdb
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\bin\Release\DataHealthCheck.exe.manifest
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\bin\Release\DataHealthCheck.application
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\bin\Release\DataHealthCheck.exe
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\bin\Release\DataHealthCheck.pdb
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.csprojResolveAssemblyReference.cache
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.Form1.resources
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.Properties.Resources.resources
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.csproj.GenerateResource.Cache
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.TrustInfo.xml
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.exe.manifest
+E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.application
