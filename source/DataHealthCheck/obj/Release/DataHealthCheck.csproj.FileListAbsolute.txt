@@ -80,3 +80,6 @@ E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\ob
 E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.TrustInfo.xml
 E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.exe.manifest
 E:\b\software\security\DataHealthCheck\DataHealthCheck\source\DataHealthCheck\obj\Release\DataHealthCheck.application
+E:\b\software\security\DataHealthCheck\github\source\DataHealthCheck\bin\Release\DataHealthCheck.exe.config
+E:\b\software\security\DataHealthCheck\github\source\DataHealthCheck\obj\Release\DataHealthCheck.exe
+E:\b\software\security\DataHealthCheck\github\source\DataHealthCheck\obj\Release\DataHealthCheck.pdb
